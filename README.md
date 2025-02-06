@@ -1,4 +1,4 @@
-# Finance_Tracker
+# **Finance Tracker**
 
 ## Objective
 To track the incomes , the financial expenses and the amount of savings for better lifement.
