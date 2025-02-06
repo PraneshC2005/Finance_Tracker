@@ -21,10 +21,10 @@ To track the incomes , the financial expenses and the amount of savings for bett
 
 ## Roles
 - ### Admin:
-  Maintain the user details and authentication credentials
+  Maintain the user details and authentication credentials.
 
 - ### User:
-  Tracks the expenses by using the application
+  Tracks the expenses by using the application.
 
 ## Tech Stack
 - ### Frontend : `React JS`
