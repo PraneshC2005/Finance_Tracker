@@ -28,5 +28,5 @@ To track the incomes , the financial expenses and the amount of savings for bett
 
 ## Tech Stack
 - ### Frontend : `React JS`
-- ### Backend  : `Express and Node JS`
+- ### Backend  : `Node and Express JS`
 - ### Database : `Mongo DB`
