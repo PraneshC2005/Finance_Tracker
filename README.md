@@ -33,4 +33,3 @@ To track the incomes , the financial expenses and the amount of savings for bett
 
 ## Image
 <img src="Fiance Tracker.jpg">
-<img src="Fiance Tracker.jpg">
