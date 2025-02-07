@@ -30,3 +30,6 @@ To track the incomes , the financial expenses and the amount of savings for bett
 - ### Frontend : `React JS`
 - ### Backend  : `Node and Express JS`
 - ### Database : `Mongo DB`
+
+## Image
+<img src="Fiance Tracker.jpg">
