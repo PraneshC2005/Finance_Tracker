@@ -1,12 +1,21 @@
 import './App.css'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './components/Login'
+import Home from './components/Home'
+import Report from './components/Report'
+import Schedule from './components/Schedule'
 function App() {
 
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/report" element={<Report />} />
+        <Route path="/schedule" element={<Schedule />}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App
+export default App;
