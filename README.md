@@ -1,35 +1,35 @@
 # **Finance Tracker**
 
 ## Objective
-To track the incomes , the financial expenses and the amount of savings for better lifement.
+To track incomes, financial expenses, and savings for better financial management.
 
-## Project workflow
-- ### Authentication page:
-  login page for the the user to login.
+## Project Workflow
+- ### Authentication Page
+  Allows users to securely log in and access the finance tracker. New users can register, and existing users can recover their passwords.
 
-- ### Expense entry page
-  Helps to note down the daily expenses whatever done in that day.
+- ### Home Page
+  The landing page of the application, welcoming users and providing an overview of the finance tracker.
 
-- ### Scheduled expenses
-  Tracking about emi expenses and the monthly rental expenses.
+- ### Expense Entry Page
+  Allows users to record their daily expenses, edit or delete existing entries, and view a list of expenses for the current day.
 
-- ### Monthly report page
-  Shows the result of expenses done as a monthly report.
+- ### Scheduled Expenses
+  Helps users manage recurring financial obligations like EMIs and monthly rent. Users can add, edit, or remove scheduled expenses and receive notifications for upcoming payments.
 
-- ### Limit alert notification
-  alert the user by sending a notification if daily expense crosses limit which is set by the user.
+- ### Monthly Report Page
+  Generates a monthly financial report summarizing income, expenses, and savings. Users can view categorized expenses, display income and savings trends, and download the report in PDF format.
+
+- ### Limit Alert Notification
+  Alerts users if daily expenses exceed the predefined limit set by them. Users can set daily spending limits and receive real-time notifications with suggestions for better financial management.
 
 ## Roles
-- ### Admin:
-  Maintain the user details and authentication credentials.
-
-- ### User:
-  Tracks the expenses by using the application.
+- ### Admin
+  Maintains user details and authentication credentials.
 
 ## Tech Stack
-- ### Frontend : `React JS`
-- ### Backend  : `Node and Express JS`
-- ### Database : `Mongo DB`
+- ### Frontend: `React JS`
+- ### Backend: `Node and Express JS`
+- ### Database: `Mongo DB`
 
 ## Image
-<img src="Fiance Tracker.jpg">
+<img src="Finance Tracker.jpg">
