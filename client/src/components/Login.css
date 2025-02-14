@@ -7,13 +7,29 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* Remove the background from body */
 body {
-  background-image:url("../assets/Apps for finance management.webp");
   display: flex;
+  justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
   overflow: hidden;
 }
+
+/* Apply background only when inside a div with .login-page */
+.login-page {
+  background-image: url("../assets/Apps for finance management.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 /* Container */
 .login-container {

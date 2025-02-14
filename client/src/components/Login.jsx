@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
-const LoginPage = () => {
+const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -18,6 +18,7 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="login-page">
     <div className="login-container">
       <div className="login-box">
         <h2 className="login-title">Finance Tracker</h2>
@@ -46,7 +47,8 @@ const LoginPage = () => {
         </p>
       </div>
     </div>
+    </div>
   );
 };
 
-export default LoginPage;
+export default Login;
