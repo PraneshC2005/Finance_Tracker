@@ -10,13 +10,23 @@
 body {
   background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
   color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
 }
 
-/* Desktop Layout */
+.home-container{
+  margin-top: 130px;
+  margin-right: 80px;
+}
+
 .desktop-container {
   display: flex;
   height: 100vh;
+  width: 100%;
 }
+
 
 /* Sidebar */
 .sidebar {
@@ -34,17 +44,16 @@ body {
 }
 
 /* Main Content */
-/* Main Content */
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;  /* Centers vertically */
-  padding: 30px;
+  justify-content: center; /* Center vertically */
+  height: 100%;
 }
 
-/* Adjust Expense Form */
+
 .expense-form {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -53,8 +62,9 @@ body {
   box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.1);
   text-align: center;
   width: 400px;
-  margin: 20px auto; /* Centers horizontally */
+  margin: auto; /* Centers horizontally */
 }
+
 
 h2 {
   font-size: 24px;

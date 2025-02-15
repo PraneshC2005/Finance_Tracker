@@ -11,11 +11,13 @@ const Login = () => {
     e.preventDefault();
     if (username === "admin" && password === "admin") {
       alert("Login successful");
+      navigate("/home"); // Navigate to Home page on successful login
     } else {
       alert("Login failed, redirecting to signup page");
-      navigate("/signup");
+      navigate("/signup"); // Navigate to Signup page on login failure
     }
   };
+  
 
   return (
     <div className="login-page">

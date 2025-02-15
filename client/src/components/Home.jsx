@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <h2>Track Your Expenses</h2>
+      <h2>Enter Your Expense Details</h2>
 
       <div className="expense-form">
         <div className="input-group">
